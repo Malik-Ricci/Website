@@ -1,8 +1,23 @@
+/**Menue variables */
+let aboutM = document.getElementById("about-menu");
+let skillsM = document.getElementById("skills-menu");
+
+/**Paragraphs */
+let about = document.getElementById("about-para");
+about.innerHTML = "Lorem Ipsum";
+for(let i=0; i<75;i++){
+    about.innerHTML += " Lorem Ipsum.";
+};
+
+
+//***********************************************************************************************************************
 
 document.addEventListener('DOMContentLoaded', function() {
     logoSwap();
+    doubleElement();
 }, false);
-logoSwap(); /**Logo changes based off screen size and the DOM loads slow, thus the second call.*/
+logoSwap(); /**element size changes based off screen size and the DOM loads slow, thus the second call.*/
+
 /** HELPER FUNCTIONS */
 /**Returns the amount of pxls from the top of view*/
 function getYPosition(){
@@ -22,6 +37,7 @@ function VhToPx(vh){
 function VwToPx(vw){
     return (vw * window.innerWidth/100);
 };
+    /**Iteratives*/
 /**Streamlines logo when screen is too thin */
 function logoSwap(){
     if( 40 > window.innerWidth/(window.screen.availWidth/100) ){
@@ -30,6 +46,7 @@ function logoSwap(){
     }else{
         document.getElementById("firstN").innerHTML= "alik&nbspD.&nbsp";
         document.getElementById("lastN").innerHTML= "icci";
+        //popup
     };
 };
 /**Turns on and off the floating menu based off scroll distance */
@@ -40,37 +57,45 @@ function floatingMenuTogle(){
     document.getElementById("floatingMenu").style.visibility = "hidden";  
    };
 };
+//doubles the elements when windows.innerWidth is greater than windows.innerHeight
+function doubleElement(){
+    elements = ["program", "front-menu-container"];
+    for(let i=0;i<elements.length;i++){
+        if(window.innerWidth > window.innerHeight){
+            document.getElementById(elements[i]).style.transform = "scale(3)";
+            document.getElementById(elements[i]).style.fontsize.transform = "scale(3)";
+        }else{
+            document.getElementById(elements[i]).style.transform = "scale(1)";
+            document.getElementById(elements[i]).style.fontsize.transform = "scale(1)";
+        };
+    };
 
+};
+
+
+
+
+
+
+
+
+/**Events */
 document.getElementById("floatingMenu").addEventListener("click",function(){
     changeYPosition(0);
 });
 window.addEventListener("resize", function(){
     logoSwap();
+    doubleElement();
 });
 window.addEventListener("scroll",function(){
     floatingMenuTogle();
 });
 
-/**Menue variables */
-let aboutM = document.getElementById("about-menu");
-let skillsM = document.getElementById("skills-menu");
-
-/**Paragraphs */
-let about = document.getElementById("about-para");
-
-about.innerHTML = "Lorem Ipsum";
-for(let i=0; i<75;i++){
-    about.innerHTML += " Lorem Ipsum.";
-};
-
-
-
-/**Menue transition */
+    /**Menue transitions */
 aboutM.addEventListener("click", function(){
    /**  window.scrollBy(0, window.innerHeight); */
     changeYPosition(VhToPx(100));
 });
-
 skillsM.addEventListener("click", function(){
     changeYPosition(VhToPx(200));
  });    

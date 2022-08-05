@@ -12,7 +12,7 @@
             <span id="Flogo">
                 <span class="Fbrackets">&lt</span>
                 <span class="Fbrackets">/</span>
-                <span class="Fspeciale">M </span>
+                <span id="m"class="Fspeciale">M </span>
                 <span class="Fspeciale">R</span>
                 <span class="Fbrackets">&gt</span>
             </span>

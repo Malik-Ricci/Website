@@ -27,11 +27,12 @@ body::-webkit-scrollbar-thumb {
 html {
     background: rgba(0, 0, 0, 0.842);
     overflow-x: hidden;
+    transition: all 0.4s
 }
 #floatingMenu{
     visibility: hidden;
-    width: 55px;
-    height: 30px;
+    width: 70px;
+    height: 50px;
     background-color: rgba(153, 51, 103);
     outline-style:solid;
     outline-offset: 0.25px;
@@ -57,14 +58,14 @@ html {
     padding: 0;
     margin: 0;
     color: rgba(102, 0, 52);
-    font-size:1rem;
-    font-stretch: condensed;
+    font-size:1.5rem;
+    font-stretch:expanded;
 }
 .Fspeciale { /*Title*/
     padding: 0;
     margin: 0;
     color: rgba(255, 255, 255, 0.79);
-    font-size:1rem; 
+    font-size:1.5rem; 
     font-stretch:narrower;
  
 }

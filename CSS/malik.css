@@ -1,5 +1,5 @@
 body::-webkit-scrollbar {
-    width: 1.2vw;
+    width: 10px;
     
     transition: all 0.4s
 }
@@ -31,13 +31,13 @@ html {
 }
 #floatingMenu{
     visibility: hidden;
-    width: 70px;
-    height: 50px;
-    background-color: rgba(153, 51, 103);
+    width: 14vmin;
+    height: 7vmin;
+    background-color: rgba(153, 51, 103,0.7);
     outline-style:solid;
     outline-offset: 0.25px;
     outline-width: 1px;
-    outline-color: rgba(102, 0, 52);
+    outline-color: rgba(102, 0, 52,0.8);
     position:fixed;
     top:0.75%;
     right:100px;
@@ -57,14 +57,14 @@ html {
 .Fbrackets {
     padding: 0;
     margin: 0;
-    color: rgba(102, 0, 52);
+    color: rgba(102, 0, 52,0.7);
     font-size:1.5rem;
     font-stretch:expanded;
 }
 .Fspeciale { /*Title*/
     padding: 0;
     margin: 0;
-    color: rgba(255, 255, 255, 0.79);
+    color: rgba(255, 255, 255, 0.7);
     font-size:1.5rem; 
     font-stretch:narrower;
  
@@ -78,7 +78,7 @@ html {
 
 }
 .brackets {
-    font-size: 5rem;
+    font-size: 7rem;
     padding: 0;
     margin: 0;
     color: rgba(102, 0, 52);
@@ -89,7 +89,7 @@ html {
 .speciale { /*Title*/
     padding: 0;
     margin: 0;
-    font-size: 5rem;
+    font-size: 7rem;
     color: rgba(255, 255, 255, 0.79);
     transition: all 0.4s;
     display: flex;
@@ -111,6 +111,7 @@ html {
     z-index: 1;
     top:0;
     left:0;
+    padding-top: 8rem;
     width:100vw;
     height:100vh;
     display: flex;
@@ -123,7 +124,7 @@ html {
 }
 
 #program {/* main sub*/
-    font-size: 1em;
+    font-size: 1.25rem;
     color: rgba(255, 255, 255, 0.842);
     padding-top: 0.5em;
     text-align: center;
@@ -135,7 +136,7 @@ html {
     color: rgba(255, 255, 255, 0.842);
     text-decoration: underline;
     text-decoration-color: rgba(102, 0, 52, 0.9);
-    font-size: 1.5em;
+    font-size: 2rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -155,7 +156,7 @@ html {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    padding-top: 2em;
+    padding-top: 5em;
     width: 95vw;
     transition: all 0.4s
 
@@ -182,6 +183,7 @@ html {
     margin:0px;
     display:flex;
     flex-direction:column;
+    align-content:center;
 
 }
 
@@ -192,14 +194,16 @@ html {
     background: rgba(255, 255, 255, 0.842);    
 }
 #about-para{
+    padding-top: 1vmin;
     padding: 2vh;
     margin:2vh;
     margin-top: 5vh;
 }
 
 .h1{
+    
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-content: center;
 }
 

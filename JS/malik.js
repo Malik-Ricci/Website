@@ -37,10 +37,16 @@ function VhToPx(vh){
 function VwToPx(vw){
     return (vw * window.innerWidth/100);
 };
+function PxToVh(px){
+    return (px/(VhToPx(510)/100)); 
+}        //site is 510 vh long and 100vw wide
+function PxToVw(px){
+    return (px/(VwToPx(100)/100));
+}
     /**Iteratives*/
 /**Streamlines logo when screen is too thin */
 function logoSwap(){
-    if( 40 > window.innerWidth/(window.screen.availWidth/100) ){
+    if( 60 > window.innerWidth/(window.screen.availWidth/100) ){
         document.getElementById("firstN").innerHTML= "";
         document.getElementById("lastN").innerHTML= "";
     }else{
@@ -59,14 +65,14 @@ function floatingMenuTogle(){
 };
 //doubles the elements when windows.innerWidth is greater than windows.innerHeight
 function doubleElement(){
-    elements = ["program", "front-menu-container"];
+    elements = ["program", "about-para"];
     for(let i=0;i<elements.length;i++){
-        if(window.innerWidth > window.innerHeight){
-            document.getElementById(elements[i]).style.transform = "scale(3)";
-            document.getElementById(elements[i]).style.fontsize.transform = "scale(3)";
-        }else{
+        if(60 > window.innerWidth/(window.screen.availWidth/100)){
             document.getElementById(elements[i]).style.transform = "scale(1)";
             document.getElementById(elements[i]).style.fontsize.transform = "scale(1)";
+        }else{
+            document.getElementById(elements[i]).style.transform = "scale(3)";
+            document.getElementById(elements[i]).style.fontsize.transform = "scale(3)";
         };
     };
 

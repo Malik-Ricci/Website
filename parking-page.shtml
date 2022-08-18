@@ -149,7 +149,7 @@
                 </div>
             </div> 
             <div id="resume">
-                <iframe src="Images\Resume.pdf" height="100%" width="100%"></iframe>
+                <div ><iframe id="pdf" src="Images\Resume.pdf" ></iframe></div>
             </div>  
             <div id="footer">© Copyright Malik D. Ricci 2022</div>          
             </div>

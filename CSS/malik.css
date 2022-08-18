@@ -32,6 +32,7 @@ html {
 a{
     text-decoration: none;
     color: rgba(153, 51, 103);
+    font-size: 1.3rem;
 }
 a:hover {
     text-decoration: none;
@@ -213,9 +214,10 @@ a:hover {
 }
 #about-para{
     padding-top: 1vmin;
-    padding: 2vh;
-    margin:2vh;
-    margin-top: 5vh;
+    padding: 2vmin;
+    margin:2vmin;
+    margin-top: 2vmin;
+    font-size: 1.2rem;
 }
 
 h1{
@@ -244,7 +246,7 @@ h1{
     
 }
 #Skill-Title{
-    font-size: 2.5rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     color: white;
@@ -252,21 +254,20 @@ h1{
 }
 #Skill-Heads{
     color: rgba(102, 0, 52);
-    font-size: 2rem;
+    font-size: 2.5rem;
     
 }
 #skills-content{
     display: flex;
     flex-flow: row nowrap;
     color: white;
-    
+
     justify-content:center;
     width: 95vw;
     padding-top: 1vmin;
 
 }
 #skills-left{
-    
     padding-right: 10vmax;
     margin-left: 1vmin;
     
@@ -336,10 +337,24 @@ h1{
     flex-flow: column nowrap;
     align-items: center;
 }
+#DINO-Para{
+    font-size: 1.3rem;
+
+}
 #resume{
+    display: flex;
+    justify-content:center;
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0);
+}
+#pdf{
+    display: flex;
+    justify-content:center;
+
+    height: 100vh;
+    width: 80vw;
+
 }
 
 

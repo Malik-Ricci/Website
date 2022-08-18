@@ -4,10 +4,11 @@ let skillsM = document.getElementById("skills-menu");
 
 /**Paragraphs */
 let about = document.getElementById("about-para");
-about.innerHTML = "Lorem Ipsum";
-for(let i=0; i<75;i++){
-    about.innerHTML += " Lorem Ipsum.";
-};
+about.innerHTML = "<t/>Welcome to my website! I'm a hardworking software developer and a lifelong thinker who values detail. My favourite pastime is learning about economics, philosophy, business, science, technology, engineering, art, and math problems to fuel new ideas on how I can elegantly develop unique and helpful software solutions."+
+"<br/><br/>By the time I reached eleven years old, even after about six years of practice, I was struggling with math just like any regular child. Yet, using no genius at all, only a couple of hours of learning how to code in LUA allowed my friend and I to write a fully functional calculator! Ever since that day, I determined that programming was nothing less than magic!\n"+
+"<br/>And so I learned at a young age that problems I couldn't even hope to understand are actually solvable thanks to computer sciences, and I've been trying to learn new spells ever since!\n"+
+"<br/><br/>By the way, yes, I do also like having fun! When I'm not coding, I like going on drives to new places, I like the gym, and I LOVE eating new food!";
+
 
 
 //***********************************************************************************************************************

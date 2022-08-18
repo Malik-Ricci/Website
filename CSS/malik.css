@@ -178,12 +178,15 @@ html {
 
 #body-wrapper{
     width: 100vw;
-    height: 410vh;   
+    height: 450vh;   
     padding: 0px;
+    margin-left: 1vmax;
     margin:0px;
     display:flex;
-    flex-direction:column;
+    flex-flow: column nowrap;
     align-content:center;
+    background-color:black;    
+
 
 }
 
@@ -191,7 +194,7 @@ html {
     
     width: 100vw;
     height: 100vh;
-    background: rgba(255, 255, 255, 0.842);    
+    background-color:white;    
 }
 #about-para{
     padding-top: 1vmin;
@@ -201,10 +204,8 @@ html {
 }
 
 .h1{
+    color: white;
     
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 #about-photo{
@@ -212,19 +213,48 @@ html {
     height: 50vh;
     float:left;
     padding: 1px;
-    padding-right: 5vh;
+    padding-right: 5vmax;
     margin:1px;
 
 }
 
 #skills{
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0);
+    align-content: center;
+    
 }
+#Skill-Title{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#skills-content{
+    display: flex;
+    flex-flow: row;
+    padding-top: 1vmin;
+    width: 30vw;
+    height: 50vh;
+}
+#skills-left{
+    padding-right: 10vmax;
+    padding-left: 1vmin;
+}
+#skills-right{
+    padding-left: 10vmax;
+    padding-right: 1vmin;
+}
+
+
 #projects{
     width: 100vw;
     height: 100vh;
+    background-color:white;    
+
 }
 #resume{
     width: 100vw;

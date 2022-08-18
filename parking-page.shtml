@@ -52,64 +52,107 @@
                         <p class="float" id="about-para" >Loading...</p>
                     </div>
             </div>
+
             <div id="skills">
                 <div id="Skill-Title">Skills</div>
                 <div id="skills-content">
                     <div id="skills-left">
                         <div id="skills-left-content">
-                            <h4>Programming Languages</h4>
+                            <div id="Skill-Heads">Programming</div>
                             <ul>
-                                <li>C++</li>
-                                <li>C#</li>
+                                <li><a href="">Machine Learning</a></li>
+                                <li>C</li>
                                 <li>Java</li>
                                 <li>Python</li>
-                                <li>JavaScript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>SQL</li>
+                                <li>Pen Testing</li>
+                                <li>Micro Processors</li>
+                                <li>Web Scraping</li>
+                                <li>OOP</li>
+                                <li>Data Structures</li>
                             </ul>
                         </div>
                         <div id="skills-left-content">
-                            <h2>Web Technologies</h2>
+                            <div id="Skill-Heads">Economics</div>
                             <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Bootstrap</li>
-                                <li>jQuery</li>
-                                <li>PHP</li>
-                                <li>MySQL</li>
-                                <li>SQL</li>
+                                <li>Macro Models</li>
+                                <li>Micro Models</li>
+                                <li>Banking Models</li>
+                                <li>developmental Models</li>
                             </ul>
                         </div>
                     </div>
                     <div id="skills-right">
                         <div id="skills-right-content">
-                            <h2>Operating Systems</h2>
+                            <div id="Skill-Heads">BMW Repair&Mods</div>
                             <ul>
-                                <li>Windows</li>
-                                <li>Linux</li>
-                                <li>MacOS</li>
+                                <li>Feature Coding</li>
+                                <li>Retrofitting</li>
+                                <li>Updating</li>
+                                <li>BMW software</li>
+                                <li>BMW hardware</li>
                             </ul>
                         </div>
                         <div id="skills-right-content">
-                            <h2>Programming Tools</h2>
+                            <div id="Skill-Heads">Misc/Other</div>
                             <ul>
-                                <li>Visual Studio</li>
-                                <li>Visual Studio Code</li>
-                                <li>Git</li>
-                                <li>GitHub</li>
-                                <li>GitLab</li>
-                                <li>Sublime Text</li>
-                                <li>Notepad++</li>
-            </div> 
+                                <li>Machine Certifications</li>
+                                <li>Music Theory</li>
+                                <li>Labour Skills</li>
+                                <li>Side Hustles</li>
+                            </ul>
+                        </div> 
+                    </div> 
+                </div>
+            </div>
+
             <div id="projects">
-                
+                <div id="projects-title">Projects</div>
+                <div id="projects-content">
+                    <div id="projects-left">
+                        <div id="projects-left-content">
+                            <div id="projects-left-content-title">
+                                <a href="">DINO</a>
+                            </div>
+                            <div id= "DINO-Para" class="projects-left-content-description">
+                                <p>Loading...</p>
+                            </div>
+                        </div>
+                        <div id="projects-left-content">
+                            <div id="projects-left-content-title">
+                         <!--   <a href="">Project 2</a> -->
+                            </div>
+                            <div class="projects-left-content-description">
+                        <!--    <p>Loading...</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--  
+                    <div id="projects-right">
+                        <div id="projects-right-content">
+                            <div id="projects-right-content-title">
+                                <a href="">Project 3</a>
+                            </div>
+                            <div id="projects-right-content-description">
+                                <p>Loading...</p>
+                            </div>
+                        </div>
+                        <div id="projects-right-content">
+                            <div id="projects-right-content-title">
+                                <a href="">Project 4</a>
+                            </div>
+                            <div id="projects-right-content-description">
+                                <p>Loading...</p>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                </div>
             </div> 
             <div id="resume">
-                
-            </div>            
-        </div>
+                <iframe src="Images\Resume.pdf" height="100%" width="100%"></iframe>
+            </div>  
+            <div id="footer">© Copyright Malik D. Ricci 2022</div>          
+            </div>
 
 
         <script src="JS\malik.js"></script>

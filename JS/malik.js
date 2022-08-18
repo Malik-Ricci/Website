@@ -1,13 +1,15 @@
 /**Menue variables */
 let aboutM = document.getElementById("about-menu");
 let skillsM = document.getElementById("skills-menu");
-
 /**Paragraphs */
 let about = document.getElementById("about-para");
 about.innerHTML = "<t/>Welcome to my website! I'm a hardworking software developer and a lifelong thinker who values detail. My favourite pastime is learning about economics, philosophy, business, science, technology, engineering, art, and math problems to fuel new ideas on how I can elegantly develop unique and helpful software solutions."+
 "<br/><br/>By the time I reached eleven years old, even after about six years of practice, I was struggling with math just like any regular child. Yet, using no genius at all, only a couple of hours of learning how to code in LUA allowed my friend and I to write a fully functional calculator! Ever since that day, I determined that programming was nothing less than magic!\n"+
 "<br/>And so I learned at a young age that problems I couldn't even hope to understand are actually solvable thanks to computer sciences, and I've been trying to learn new spells ever since!\n"+
 "<br/><br/>By the way, yes, I do also like having fun! When I'm not coding, I like going on drives to new places, I like the gym, and I LOVE eating new food!";
+
+let DinoP = document.getElementById("DINO-Para");
+DinoP.innerHTML = "My Deeply Interconnected Node Object is my project that aims at creating a reusable web API that will be useful for coding automated tasks into any web project. DINO will be utilizing my research into the ensemble learning paradigm to iteratively train, modify, and deploy a large variety of weak (low accuracy) models to dramatically decrease the example size required to make predictions with any given accuracy target. DINO will work for a variety of topics such as computer vision, classification, and regression. DINO will be firstly used by me to create a chrome extension that can extend the browser's current capabilities such as by being able to copy text out of photos, find the name of any song playing in a browser video, or add custom browser shortcuts.";
 
 
 

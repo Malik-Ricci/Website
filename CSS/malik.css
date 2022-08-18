@@ -1,5 +1,5 @@
 body::-webkit-scrollbar {
-    width: 10px;
+    width: 2vmin;
     
     transition: all 0.4s
 }
@@ -29,6 +29,16 @@ html {
     overflow-x: hidden;
     transition: all 0.4s
 }
+a{
+    text-decoration: none;
+    color: rgba(153, 51, 103);
+}
+a:hover {
+    text-decoration: none;
+    color: rgba(102, 0, 52);
+  }
+
+
 #floatingMenu{
     visibility: hidden;
     width: 14vmin;
@@ -171,14 +181,19 @@ html {
 }
 
 #footer{
+    height:10vh;
     clear:both;
     background-color: rgba(0, 0, 0, 0.842);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(102, 0, 52);
  
 }
 
 #body-wrapper{
     width: 100vw;
-    height: 450vh;   
+    height: 410vh;   
     padding: 0px;
     margin-left: 1vmax;
     margin:0px;
@@ -203,8 +218,8 @@ html {
     margin-top: 5vh;
 }
 
-.h1{
-    color: white;
+h1{
+    color: rgba(102, 0, 52);
     
 }
 
@@ -218,6 +233,7 @@ html {
 
 }
 
+
 #skills{
     display: flex;
     flex-direction: column;
@@ -228,26 +244,50 @@ html {
     
 }
 #Skill-Title{
-    font-size: 2rem;
+    font-size: 2.5rem;
     display: flex;
     justify-content: center;
     color: white;
+    padding-bottom: 4vmin;
+}
+#Skill-Heads{
+    color: rgba(102, 0, 52);
+    font-size: 2rem;
+    
 }
 #skills-content{
     display: flex;
-    flex-flow: row;
+    flex-flow: row nowrap;
+    color: white;
+    
+    justify-content:center;
+    width: 95vw;
     padding-top: 1vmin;
-    width: 30vw;
-    height: 50vh;
+
 }
 #skills-left{
+    
     padding-right: 10vmax;
-    padding-left: 1vmin;
+    margin-left: 1vmin;
+    
+}
+#skills-left-content{
+    
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-left: 1vmin;
 }
 #skills-right{
     padding-left: 10vmax;
-    padding-right: 1vmin;
+    
 }
+#skills-right-content{  
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
 
 
 #projects{
@@ -255,6 +295,46 @@ html {
     height: 100vh;
     background-color:white;    
 
+}
+#projects-title{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    color: rgba(102, 0, 52);
+    padding-bottom: 4vmin;
+}
+#projects-content{
+    display: flex;
+    flex-flow: row nowrap;
+    color: black;
+    
+    justify-content:center;
+    width: 95vw;
+    padding-top: 1vmin;
+
+}
+#projects-left{
+    
+    padding-right: 10vmax;
+    margin-left: 1vmin;
+    
+}
+#projects-left-content{
+    
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-left: 1vmin;
+}
+
+#projects-right{
+    padding-left: 10vmax;
+    
+}
+#projects-right-content{  
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 #resume{
     width: 100vw;

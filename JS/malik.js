@@ -1,6 +1,9 @@
 /**Menue variables */
 let aboutM = document.getElementById("about-menu");
 let skillsM = document.getElementById("skills-menu");
+let projectsM = document.getElementById("projects-menu");
+let resumeM = document.getElementById("resume-menu");
+
 /**Paragraphs */
 let about = document.getElementById("about-para");
 about.innerHTML = "<t/>Welcome to my website! I'm a hardworking software developer and a lifelong thinker who values detail. My favourite pastime is learning about economics, philosophy, business, science, technology, engineering, art, and math problems to fuel new ideas on how I can elegantly develop unique and helpful software solutions."+
@@ -107,4 +110,11 @@ aboutM.addEventListener("click", function(){
 });
 skillsM.addEventListener("click", function(){
     changeYPosition(VhToPx(200));
- });    
+ });  
+projectsM.addEventListener("click", function(){
+    changeYPosition(VhToPx(300));
+ });  
+ resumeM.addEventListener("click", function(){
+    changeYPosition(VhToPx(410));
+ });  
+ 

@@ -48,8 +48,8 @@
             <div id="about-me">
                     <img id="about-photo" alt="poonSlyr" target="_blank" src="Images\unknown.png">
                     <div>
-                        <h1>About Me!</h1>
-                        <p class="float" id="about-para" >Loading...</p>
+                        <div id="about-title">About Me!</div>
+                        <div id="about-para"><p class="float" id="about-para" >Loading...</p></div>
                     </div>
             </div>
 
@@ -61,9 +61,6 @@
                             <div id="Skill-Heads">Programming</div>
                             <ul>
                                 <li><a href="">Machine Learning</a></li>
-                                <li>C</li>
-                                <li>Java</li>
-                                <li>Python</li>
                                 <li>Pen Testing</li>
                                 <li>Micro Processors</li>
                                 <li>Web Scraping</li>
@@ -149,7 +146,7 @@
                 </div>
             </div> 
             <div id="resume">
-                <div ><iframe id="pdf" src="Images\Resume.pdf" ></iframe></div>
+                <div ><iframe id="pdf" src="Images\Resume1pg.pdf" ></iframe></div>
             </div>  
             <div id="footer">© Copyright Malik D. Ricci 2022</div>          
             </div>

@@ -286,7 +286,7 @@ a:hover {
 #skills-left{
     padding-right: 10vmax;
     margin-left: 1vmin;
-    
+    height: 30vmax;
 }
 #skills-left-content{
     
@@ -295,9 +295,14 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-left: 1vmin;
+    
+    
 }
 #skills-right{
     padding-left: 10vmax;
+    margin-right: 1vmin;
+
+    height: 30vmax;
     
 }
 #skills-right-content{  
@@ -305,6 +310,7 @@ a:hover {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+
 }
 
 

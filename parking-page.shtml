@@ -46,7 +46,7 @@
         
         <div class="container-fluid" id="body-wrapper">
             <div id="about-me">
-                    <img id="about-photo" alt="poonSlyr" target="_blank" src="Images\unknown.png">
+                    <img id="about-photo" alt="poonSlyr" target="_blank" src="Images\IMG_1286.jpg">
                     <div>
                         <div id="about-title">About Me!</div>
                         <div><p class="float" id="about-para" >Loading...</p></div>

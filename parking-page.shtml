@@ -49,7 +49,7 @@
                     <img id="about-photo" alt="poonSlyr" target="_blank" src="Images\unknown.png">
                     <div>
                         <div id="about-title">About Me!</div>
-                        <div id="about-para"><p class="float" id="about-para" >Loading...</p></div>
+                        <div><p class="float" id="about-para" >Loading...</p></div>
                     </div>
             </div>
 

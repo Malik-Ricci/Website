@@ -93,14 +93,17 @@ function doubleElement(){
                 document.getElementById(divs[i]).style.transform = "scale(2)";
                 document.getElementById(divs[i]).style.fontsize = "scale(2)";     
             };
-        }else{ //if mobile
-            if(window.innerHeight<window.innerWidth){ //if horizontal
-                document.getElementById(divs[i]).style.transform = "scale(1)";
-                document.getElementById(divs[i]).style.fontsize = "scale(1)";
+        }
+        else{ //if mobile
+            if(window.innerHeight<window.screen.availWidth){ //if horizontal
+                //document.getElementById(divs[i]).style.transform = "scale(1)";
+                //document.getElementById(divs[i]).style.fontsize = "scale(1)";
+
+                about.style.fontSize = "1rem";
             }else{ //if vertical
-                document.getElementById(divs[i]).style.fontsize = "scale(2)";
+                //document.getElementById(divs[i]).style.fontsize = "scale(2)";
                 
-                about.style.fontSize = "2rem";
+                about.style.fontSize = "3rem";
             };
         };
         

@@ -93,7 +93,7 @@ function doubleElement(){
             };
         }
         else{ //if mobile
-            if(window.screen.availHeight<window.screen.availWidth){ //if horizontal
+            if(window.innerHeight<window.innerWidth){ //if horizontal
                 //document.getElementById(divs[i]).style.transform = "scale(1)";
                 document.getElementById(divs[i]).style.fontsize = "scale(1)";
 

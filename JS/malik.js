@@ -101,7 +101,8 @@ function doubleElement(){
                 document.getElementById("Skill-Title").style.fontSize = "2.5rem";
                 document.getElementById("program").style.fontSize = "1.25rem";
                 about.style.fontSize = "1rem";
-            }else{ //if vertical
+            }
+            if(window.matchMedia("(orientation: portrait)").matches){ //if vertical
 
                 document.getElementById(divs[i]).style.fontSize = "scale(2)";
                 
@@ -115,7 +116,7 @@ function doubleElement(){
         
     };
 };
-
+doubleElement()
 
 
 

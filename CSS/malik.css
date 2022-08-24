@@ -147,12 +147,12 @@ a:hover {
     color: rgba(255, 255, 255, 0.842);
     text-decoration: underline;
     text-decoration-color: rgba(102, 0, 52, 0.9);
-    font-size: 3rem;
+    font-size: 2.5rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    padding-right: 4%;
-    padding-left: 4%;
+    padding-right: 3.5%;
+    padding-left: 3.5%;
     text-align: center;
     white-space: nowrap;
 
@@ -167,7 +167,7 @@ a:hover {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    padding-top: 5em;
+    padding-top: 15vmin;
     width: 95vw;
     transition: all 0.4s
 
@@ -218,7 +218,7 @@ a:hover {
     margin:2vmin;
     margin-top: 1vmax;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 2.5vmax;
 }
 
 #about-title{

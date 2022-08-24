@@ -147,7 +147,7 @@ a:hover {
     color: rgba(255, 255, 255, 0.842);
     text-decoration: underline;
     text-decoration-color: rgba(102, 0, 52, 0.9);
-    font-size: 2rem;
+    font-size: 3rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -274,9 +274,13 @@ a:hover {
     color: white;
 
     justify-content:center;
+    align-items: center;
+    align-content: center;
+    padding-top: 1vmin;
     width: 95vw;
     padding-top: 4vmax;
     padding-bottom: 0.5vmin;
+    
 
 }
 #skills-left{
@@ -288,6 +292,7 @@ a:hover {
     
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
     align-items: center;
     margin-left: 1vmin;
 }
@@ -298,6 +303,7 @@ a:hover {
 #skills-right-content{  
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
     align-items: center;
 }
 

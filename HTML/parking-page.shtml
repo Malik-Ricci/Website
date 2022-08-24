@@ -34,7 +34,7 @@
 
 
                 </div>
-                <div id="program">Computer Scientist</div>
+                <div id="program">WLU Computer Scientist</div>
                 <div id="front-menu-container">
                     <h2 class="front-menu-items" id="about-menu" >About</a>
                     <h2 class="front-menu-items" id="skills-menu" href ="HTML\skills.html">Skills</h2>

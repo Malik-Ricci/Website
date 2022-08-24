@@ -81,7 +81,7 @@ function floatingMenuTogle(){
 };
 //doubles the elements in 'divs' when screen is too thin on desktop, or vertical on mobile.
 function doubleElement(){
-    divs = ["Skill-Title","about-title",];
+    divs = ["program","Skill-Title","about-title"];
     
     for(let i=0;i<divs.length;i++){
         if(!window.mobileCheck()){ //if desktop
@@ -95,20 +95,12 @@ function doubleElement(){
         else{ //if mobile
             if(window.innerHeight<window.screen.availWidth){ //if horizontal
                 //document.getElementById(divs[i]).style.transform = "scale(1)";
-                document.getElementById(divs[i]).style.fontsize = "scale(1)";
+                //document.getElementById(divs[i]).style.fontsize = "scale(1)";
 
-                document.getElementById("Skill-Title").style.marginBottom = "-2.5vmin";
-                document.getElementById("Skill-Title").style.fontSize = "2.5rem";
-                document.getElementById("program").style.fontSize = "1.25rem";
                 about.style.fontSize = "1rem";
             }else{ //if vertical
-
-                document.getElementById(divs[i]).style.fontSize = "scale(2)";
+                //document.getElementById(divs[i]).style.fontsize = "scale(2)";
                 
-
-                document.getElementById("Skill-Title").style.marginBottom = "4vmin";
-                document.getElementById("Skill-Title").style.fontSize = "5rem";
-                document.getElementById("program").style.fontSize = "2.5rem";
                 about.style.fontSize = "3rem";
             };
         };

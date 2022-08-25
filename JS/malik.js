@@ -32,7 +32,7 @@ function getYPosition(){
   };
 /**Changes page view to the position in Px */
 function changeYPosition(px){
-    var top = document.documentElement.scrollTop = document.body.scrollTop = px;
+    document.documentElement.scrollTop = document.body.scrollTop = px;
 };
 /** |1vh = 1/100 viewport height.| 
  * vh = window.innerWidth/(MaxWidth/100)
@@ -163,7 +163,7 @@ doubleElement()
 
 /**Events */
 document.getElementById("floatingMenu").addEventListener("click",function(){
-    changeYPosition(0);
+    changeYPosition(-9999);
 });
 window.addEventListener("resize", function(){
     logoSwap();
@@ -179,12 +179,12 @@ aboutM.addEventListener("click", function(){
     changeYPosition(VhToPx(100));
 });
 skillsM.addEventListener("click", function(){
-    changeYPosition(VhToPx(200));
+    changeYPosition(VhToPx(198));
  });  
 projectsM.addEventListener("click", function(){
-    changeYPosition(VhToPx(300));
+    changeYPosition(VhToPx(296));
  });  
  resumeM.addEventListener("click", function(){
-    changeYPosition(VhToPx(410));
+    changeYPosition(VhToPx(500));
  });  
  

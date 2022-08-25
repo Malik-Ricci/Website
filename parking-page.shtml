@@ -84,7 +84,7 @@
                             <ul>
                                 <li class="skill">Feature Coding</li>
                                 <li class="skill">Retrofitting</li>
-                                <li class="skill">Updating</li>
+                                <li class="skill">Module Updating</li>
                                 <li class="skill">BMW Software</li>
                                 <li class="skill">BMW Hardware</li>
                             </ul>
@@ -111,7 +111,7 @@
                                 <a href="">DINO</a>
                             </div>
                             <div id= "DINO-Para" class="projects-left-content-description">
-                                <p>Loading...</p>
+                                <p id="about-text">Loading...</p>
                             </div>
                         </div>
                         <div id="projects-left-content">

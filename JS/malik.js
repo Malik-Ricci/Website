@@ -82,7 +82,7 @@ function floatingMenuTogle(){
 
 //Main sizing function
 function doubleElement(){
-    divs = ["Skill-Title","about-title","program"];
+    divs = ["Skill-Title","about-title","program","projects-title"];
     
     if(!window.mobileCheck()){ //if desktop
         if((window.screen.availWidth*0.6)>window.innerWidth){ //if browser is less than half the width of the screen
@@ -110,6 +110,7 @@ function doubleElement(){
             document.getElementById("about-title").style.fontSize = "2.75rem";
             document.getElementById("program").style.fontSize = "1.25rem";
             about.style.fontSize = "1rem";
+            about.style.lineHeight = "2.6vmax";
             for (let i = 0; i < document.getElementsByClassName("Fspeciale").length; i++) {
                 document.getElementsByClassName("Fspeciale")[i].style.fontSize = "2rem";
             };
@@ -131,7 +132,8 @@ function doubleElement(){
             document.getElementById("Skill-Title").style.fontSize = "7rem";
             document.getElementById("about-title").style.fontSize = "5.5rem";
             document.getElementById("program").style.fontSize = "2.7rem";
-            about.style.fontSize = "2.25rem";
+            about.style.fontSize = "5rem";
+            about.style.lineHeight = "1.1vmax";
             for (let i = 0; i < document.getElementsByClassName("Fspeciale").length; i++) {
                 document.getElementsByClassName("Fspeciale")[i].style.fontSize = "4rem";
             };

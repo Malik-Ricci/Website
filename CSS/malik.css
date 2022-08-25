@@ -223,10 +223,15 @@ a:hover {
 #about-para{
     padding: 2vmin;
     margin:2vmin;
-    margin-top: 1vmax;
+    margin-top: 0vmax;
     font-size: 1.5rem;
     line-height: 2.5vmax;
+    font-style: bolder;
+    color: black;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 
 #about-title{
     color: rgba(102, 0, 52);
@@ -272,7 +277,7 @@ a:hover {
     justify-content: center;
     padding-bottom: 0.5vmin;
     padding-top: 0.5vmin;
-    
+    text-align: center;
     
 }
 #skills-content{
@@ -302,7 +307,8 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-left: 1vmin;
-    
+    text-align: left;
+
     
 }
 #skills-right{
@@ -317,6 +323,7 @@ a:hover {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    text-align: left;
 
 }
 
@@ -334,6 +341,7 @@ a:hover {
     justify-content: center;
     color: rgba(102, 0, 52);
     padding-bottom: 4vmin;
+    padding-top: 2vmax;
 }
 #projects-content{
     display: flex;

@@ -58,44 +58,44 @@
                 <div id="skills-content">
                     <div id="skills-left">
                         <div id="skills-left-content">
-                            <div id="Skill-Heads">Programming</div>
+                            <div id="Skill-Heads" class="skillH">Programming</div>
                             <ul>
-                                <li><a href="">Machine Learning</a></li>
-                                <li>Pen Testing</li>
-                                <li>Micro Processors</li>
-                                <li>Web Scraping</li>
-                                <li>OOP</li>
-                                <li>Data Structures</li>
+                                <li><a class="skill" href="">Machine Learning</a></li>
+                                <li class="skill">Pen Testing</li>
+                                <li class="skill">Micro Processors</li>
+                                <li class="skill">Web Scraping</li>
+                                <li class="skill">OOP</li>
+                                <li class="skill">Data Structures</li>
                             </ul>
                         </div>
                         <div id="skills-left-content">
-                            <div id="Skill-Heads">Economics</div>
+                            <div id="Skill-Heads" class="skillH">Economics</div>
                             <ul>
-                                <li>Macro Models</li>
-                                <li>Micro Models</li>
-                                <li>Banking Models</li>
-                                <li>developmental Models</li>
+                                <li class="skill">Macro Models</li>
+                                <li class="skill">Micro Models</li>
+                                <li class="skill">Banking Models</li>
+                                <li class="skill">Developmental Models</li>
                             </ul>
                         </div>
                     </div>
                     <div id="skills-right">
                         <div id="skills-right-content">
-                            <div id="Skill-Heads">BMW Repair&Mods</div>
+                            <div id="Skill-Heads" class="skillH">BMW Repair&Mods</div>
                             <ul>
-                                <li>Feature Coding</li>
-                                <li>Retrofitting</li>
-                                <li>Updating</li>
-                                <li>BMW software</li>
-                                <li>BMW hardware</li>
+                                <li class="skill">Feature Coding</li>
+                                <li class="skill">Retrofitting</li>
+                                <li class="skill">Updating</li>
+                                <li class="skill">BMW Software</li>
+                                <li class="skill">BMW Hardware</li>
                             </ul>
                         </div>
                         <div id="skills-right-content">
-                            <div id="Skill-Heads">Misc/Other</div>
+                            <div id="Skill-Heads" class="skillH">Misc/Other</div>
                             <ul>
-                                <li>Machine Certifications</li>
-                                <li>Music Theory</li>
-                                <li>Labour Skills</li>
-                                <li>Side Hustles</li>
+                                <li class="skill">Machine Certifications</li>
+                                <li class="skill">Music Theory</li>
+                                <li class="skill">Labour Skills</li>
+                                <li class="skill">Side Hustles</li>
                             </ul>
                         </div> 
                     </div> 
@@ -147,12 +147,18 @@
             </div> 
             <div id="resume">
                 <div ><iframe id="pdf" src="Images\Resume1pg.pdf" ></iframe></div>
-            </div>  
-            <div id="footer">© Copyright Malik D. Ricci 2022</div>          
-            </div>
+            </div> 
+            <footer> 
+            <div id="footer">© Copyright Malik D. Ricci 2022</div>
+            <div class="github-profile-badge" data-user="Malik-Ricci"></div>          
+            </footer>
+        
+        </div>
+            
 
-
+        
         <script src="JS\malik.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/Rapsssito/github-profile-badge@latest/src/widget.min.js"></script>
     </body>
 
 

@@ -57,7 +57,7 @@ a:hover {
     display: flex; 
     align-items:center;
     justify-content: center;
-    transition: 2ms
+    transition: 2ms;
 }
 #Flogo{
     display: flex;
@@ -188,9 +188,17 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow : column;
     color: rgb(102, 0, 52);
     font-size: 1.5rem;
  
+}
+#github-profile-badge{
+    display:flex;
+    justify-content: center;
+    align-items: left;
+    height: 10vmin;
+    width: 10vmin;
 }
 
 #body-wrapper{
@@ -213,11 +221,10 @@ a:hover {
     background-color:white;    
 }
 #about-para{
-    
     padding: 2vmin;
     margin:2vmin;
     margin-top: 1vmax;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 2.5vmax;
 }
 
@@ -284,8 +291,8 @@ a:hover {
 
 }
 #skills-left{
-    padding-right: 10vmax;
-    margin-left: 1vmin;
+    padding-right: 5vmax;
+    margin-left: 4vmin;
     height: 30vmax;
 }
 #skills-left-content{
@@ -299,7 +306,7 @@ a:hover {
     
 }
 #skills-right{
-    padding-left: 10vmax;
+    padding-left: 5vmax;
     margin-right: 1vmin;
 
     height: 30vmax;

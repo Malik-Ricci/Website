@@ -79,46 +79,76 @@ function floatingMenuTogle(){
     document.getElementById("floatingMenu").style.visibility = "hidden";  
    };
 };
-//doubles the elements in 'divs' when screen is too thin on desktop, or vertical on mobile.
+
+//Main sizing function
 function doubleElement(){
     divs = ["Skill-Title","about-title","program"];
     
-    for(let i=0;i<divs.length;i++){
-        if(!window.mobileCheck()){ //if desktop
-            if((window.screen.availWidth*0.6)>window.innerWidth){ //if browser is less than half the width of the screen
-                document.getElementById(divs[i]).style.fontsize = "scale(1)";
-                document.getElementById(divs[i]).style.transform = "scale(1)";
-            }else{
-                document.getElementById(divs[i]).style.fontsize = "scale(2)";
-                document.getElementById(divs[i]).style.transform = "scale(2)";
-     
+    if(!window.mobileCheck()){ //if desktop
+        if((window.screen.availWidth*0.6)>window.innerWidth){ //if browser is less than half the width of the screen
+            for(let i=0;i<divs.length;i++){
+            document.getElementById(divs[i]).style.fontSize = "scale(1)";
+            document.getElementById(divs[i]).style.transform = "scale(1)";
+            };
+
+            document.getElementById("about-para").style.fontSize = "1.5rem";
+
+        }else{//if browser is more than half the width of the screen
+            for(let i=0;i<divs.length;i++){ 
+            document.getElementById(divs[i]).style.transform = "scale(2)";
+            };
+            document.getElementById("about-para").style.fontSize = "3rem";
+        };
+    }else{ //if mobile
+        if(window.matchMedia("(orientation: landscape)").matches){ //if horizontal
+            for(let i=0;i<divs.length;i++){
+            //document.getElementById(divs[i]).style.transform = "scale(1)";
+            document.getElementById(divs[i]).style.fontsize = "scale(1)";
+            };
+            document.getElementById("Skill-Title").style.marginBottom = "-2.5vmin";
+            document.getElementById("Skill-Title").style.fontSize = "2.5rem";
+            document.getElementById("about-title").style.fontSize = "2.75rem";
+            document.getElementById("program").style.fontSize = "1.25rem";
+            about.style.fontSize = "1rem";
+            for (let i = 0; i < document.getElementsByClassName("Fspeciale").length; i++) {
+                document.getElementsByClassName("Fspeciale")[i].style.fontSize = "2rem";
+            };
+            for (let i = 0; i < document.getElementsByClassName("Fbrackets").length; i++) {
+                document.getElementsByClassName("Fbrackets")[i].style.fontSize = "2.4rem";
+            };
+            for (let i = 0; i < document.getElementsByClassName("skill").length; i++) {
+                document.getElementsByClassName("skill")[i].style.fontSize = "0.9rem";
+            };
+            for (let i = 0; i < document.getElementsByClassName("skillH").length; i++) {
+                document.getElementsByClassName("skillH")[i].style.fontSize = "1.5rem";
             };
         }
-        else{ //if mobile
-            if(window.matchMedia("(orientation: landscape)").matches){ //if horizontal
-                //document.getElementById(divs[i]).style.transform = "scale(1)";
-                document.getElementById(divs[i]).style.fontsize = "scale(1)";
-
-                document.getElementById("Skill-Title").style.marginBottom = "-2.5vmin";
-                document.getElementById("Skill-Title").style.fontSize = "2.5rem";
-                document.getElementById("about-title").style.fontSize = "2.75rem";
-                document.getElementById("program").style.fontSize = "1.25rem";
-                about.style.fontSize = "1rem";
-            }
-            if(window.matchMedia("(orientation: portrait)").matches){ //if vertical
-
-                document.getElementById(divs[i]).style.fontSize = "scale(2)";
-                
-
-                document.getElementById("Skill-Title").style.marginBottom = "4vmin";
-                document.getElementById("Skill-Title").style.fontSize = "7rem";
-                document.getElementById("about-title").style.fontSize = "5.5rem";
-                document.getElementById("program").style.fontSize = "2.5rem";
-                about.style.fontSize = "3rem";
+        if(window.matchMedia("(orientation: portrait)").matches){ //if vertical
+            for(let i=0;i<divs.length;i++){
+            document.getElementById(divs[i]).style.fontSize = "scale(2)";
+            };
+            document.getElementById("Skill-Title").style.marginBottom = "4vmin";
+            document.getElementById("Skill-Title").style.fontSize = "7rem";
+            document.getElementById("about-title").style.fontSize = "5.5rem";
+            document.getElementById("program").style.fontSize = "2.7rem";
+            about.style.fontSize = "2.25rem";
+            for (let i = 0; i < document.getElementsByClassName("Fspeciale").length; i++) {
+                document.getElementsByClassName("Fspeciale")[i].style.fontSize = "4rem";
+            };
+            for (let i = 0; i < document.getElementsByClassName("Fbrackets").length; i++) {
+                document.getElementsByClassName("Fbrackets")[i].style.fontSize = "5rem";
+            };
+            for (let i = 0; i < document.getElementsByClassName("skill").length; i++) {
+                document.getElementsByClassName("skill")[i].style.fontSize = "2.8rem";
+            };
+            for (let i = 0; i < document.getElementsByClassName("skillH").length; i++) {
+                document.getElementsByClassName("skillH")[i].style.fontSize = "3.5rem";
             };
         };
-        
-    };
+        document.getElementById("floatingMenu").style.width = "24vmin";
+        document.getElementById("floatingMenu").style.height = "11vmin";
+
+    };  
 };
 doubleElement()
 

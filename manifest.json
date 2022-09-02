@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Malik D. Ricci",
+    "description": "My handmade website",
+    "version": "1.0",
+    "action": {
+      "default_icon": "icon.PNG",
+      "default_popup": "parking-page.shtml"
+    }
+  }

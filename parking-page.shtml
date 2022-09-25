@@ -149,7 +149,7 @@
                 <div ><iframe id="pdf" src="Images\Resume1pg.pdf" ></iframe></div>
             </div> 
             <footer> 
-            <div id="footer">© Copyright Malik D. Ricci 2022</div>
+            <div id="footer">&#169 Creator: Malik D. Ricci 2022</div>
             <div class="github-profile-badge" data-user="Malik-Ricci"></div>          
             </footer>
         

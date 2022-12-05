@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="CSS\malik.css" type="text/css" media="screen">
     </head>
     <body>
-        <div id="floatingMenu"> 
+        <button id="floatingMenu"> 
             <span id="Flogo">
                 <span class="Fbrackets">&lt</span>
                 <span class="Fbrackets">/</span>
@@ -16,7 +16,7 @@
                 <span class="Fspeciale">R</span>
                 <span class="Fbrackets">&gt</span>
             </span>
-        </div>
+        </button>
 
         <div class="container-fluid" id="front-wrapper">
             <div id="front-content">
@@ -49,7 +49,7 @@
                     <img id="about-photo" alt="poonSlyr" target="_blank" src="Images\IMG_1286.jpg">
                     <div>
                         <div id="about-title">About Me!</div>
-                        <div><p class="float" id="about-para" >Loading...</p></div>
+                        <div class="float" id="about-para" >Loading...</div>
                     </div>
             </div>
 
@@ -60,7 +60,7 @@
                         <div id="skills-left-content">
                             <div id="Skill-Heads" class="skillH">Programming</div>
                             <ul>
-                                <li><a class="skill" href="">Machine Learning</a></li>
+                                <li><a class="skill">Machine Learning</a></li>
                                 <li class="skill">Pen Testing</li>
                                 <li class="skill">Micro Processors</li>
                                 <li class="skill">Web Scraping</li>
@@ -95,7 +95,7 @@
                                 <li class="skill">Machine Certifications</li>
                                 <li class="skill">Music Theory</li>
                                 <li class="skill">Labour Skills</li>
-                                <li class="skill">Side Hustles</li>
+                                <li class="skill">Freelancing</li>
                             </ul>
                         </div> 
                     </div> 

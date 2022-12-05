@@ -20,9 +20,9 @@ DinoP.innerHTML = "My Deeply Interconnected Node Object is my project that aims 
 
 document.addEventListener('DOMContentLoaded', function() {
     logoSwap();
-    doubleElement();
+    sizeElements();
 }, false);
-logoSwap(); /**element size changes based off screen size and the DOM loads slow, thus the second call.*/
+logoSwap(); /**element size changes based off screen size and the DOM loads at inconsistent speeds, thus this second call.*/
 
 /** HELPER FUNCTIONS */
 /**Returns the amount of pxls from the top of view*/
@@ -60,9 +60,10 @@ window.mobileCheck = function() {
   };
 
 
+
 /**Streamlines logo when screen is too thin */
 function logoSwap(){
-    if( 60 > window.innerWidth/(window.screen.availWidth/100) ){
+    if(60 > window.innerWidth/(window.screen.availWidth/100) ){
         document.getElementById("firstN").innerHTML= "";
         document.getElementById("lastN").innerHTML= "";
     }else{
@@ -71,6 +72,7 @@ function logoSwap(){
         //popup
     };
 };
+
 /**Turns on and off the floating menu based off scroll distance */
 function floatingMenuTogle(){
    if(getYPosition()>VhToPx(43)){
@@ -81,11 +83,11 @@ function floatingMenuTogle(){
 };
 
 //Main sizing function
-function doubleElement(){
+function sizeElements(){
     divs = ["Skill-Title","about-title","program","projects-title"];
     
     if(!window.mobileCheck()){ //if desktop
-        if((window.screen.availWidth*0.6)>window.innerWidth){ //if browser is less than half the width of the screen
+        if((window.screen.availWidth*0.6)>window.innerWidth){ //if browser is less than 60% the width of the screen
             for(let i=0;i<divs.length;i++){
             document.getElementById(divs[i]).style.fontSize = "scale(1)";
             document.getElementById(divs[i]).style.transform = "scale(1)";
@@ -152,7 +154,7 @@ function doubleElement(){
 
     };  
 };
-doubleElement()
+sizeElements()
 
 
 
@@ -167,7 +169,7 @@ document.getElementById("floatingMenu").addEventListener("click",function(){
 });
 window.addEventListener("resize", function(){
     logoSwap();
-    doubleElement();
+    sizeElements();
 });
 window.addEventListener("scroll",function(){
     floatingMenuTogle();

@@ -58,6 +58,7 @@ a:hover {
     align-items:center;
     justify-content: center;
     transition: 2ms;
+    border: 0;
 }
 #Flogo{
     display: flex;
@@ -229,7 +230,7 @@ a:hover {
 #about-para{
     padding: 2vmin;
     margin:2vmin;
-    margin-top: 0vmax;
+    margin-top: 0;
     font-size: 1.5rem;
     line-height: 2.5vmax;
     font-style: bolder;

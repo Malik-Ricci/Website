@@ -8,13 +8,13 @@
         <link rel="stylesheet" href="CSS\malik.css" type="text/css" media="screen">
     </head>
     <body>
-        <button id="floatingMenu"> 
+        <button class="floatingMenu"> 
             <span id="Flogo">
-                <span class="Fbrackets">&lt</span>
-                <span class="Fbrackets">/</span>
-                <span id="m"class="Fspeciale">M </span>
-                <span class="Fspeciale">R</span>
-                <span class="Fbrackets">&gt</span>
+                <span class="Fbrackets"class="floatingMenu">&lt</span>
+                <span class="Fbrackets"class="floatingMenu">/</span>
+                <span id="m"class="Fspeciale"class="floatingMenu">M </span>
+                <span class="Fspeciale"class="floatingMenu">R</span>
+                <span class="Fbrackets"class="floatingMenu">&gt</span>
             </span>
         </button>
 

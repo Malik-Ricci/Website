@@ -40,11 +40,11 @@ a:hover {
   }
 
 
-#floatingMenu{
+.floatingMenu{
     visibility: hidden;
     width: 14vmin;
     height: 7vmin;
-    background-color: rgba(153, 51, 103,0.7);
+    background-color: rgba(153, 51, 103,0.5);
     outline-style:solid;
     outline-offset: 0.25px;
     outline-width: 1px;
@@ -59,6 +59,10 @@ a:hover {
     justify-content: center;
     transition: 2ms;
     border: 0;
+}
+/*nned to add transitions to whole button */
+.floatingMenu:hover{
+    background-color: rgba(153, 51, 103,0.7);
 }
 #Flogo{
     display: flex;

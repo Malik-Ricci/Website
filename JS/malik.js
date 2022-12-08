@@ -164,7 +164,7 @@ sizeElements()
 
 
 /**Events */
-document.getElementById("floatingMenu").addEventListener("click",function(){
+document.getElementsByClassName("floatingMenu").addEventListener("click",function(){
     changeYPosition(-9999);
 });
 window.addEventListener("resize", function(){
